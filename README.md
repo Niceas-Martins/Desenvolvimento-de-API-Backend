@@ -75,16 +75,20 @@ Todas as respostas seguem um padrão JSON:
 ```
 
 ### 4. Como Rodar o Projeto
-
+  
 1. No diretório `StudyManagerFastAPI`, instalar dependências:
    ```bash
    python -m pip install -r requirements.txt
+   ```
+   (Se a pasta estiver em app/ use:)
+   ```bash
+   cd ..
    ```
    Ou, se você usar `py` no Windows:
    ```bash
    py -m pip install -r requirements.txt
    ```
-2. Rodar o servidor:
+3. Rodar o servidor:
    ```bash
    python -m uvicorn app.main:app --reload
    ```
@@ -92,6 +96,6 @@ Todas as respostas seguem um padrão JSON:
    ```bash
    py -m uvicorn app.main:app --reload
    ```
-3. Acessar a documentação automática da API (Swagger):
+4. Acessar a documentação automática da API (Swagger):
    - `http://localhost:8000/docs`
 
