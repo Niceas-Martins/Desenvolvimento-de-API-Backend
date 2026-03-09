@@ -80,10 +80,6 @@ Todas as respostas seguem um padrão JSON:
    ```bash
    python -m pip install -r requirements.txt
    ```
-   (Se a pasta estiver em app/ use:)
-   ```bash
-   cd ..
-   ```
    Ou, se você usar `py` no Windows:
    ```bash
    py -m pip install -r requirements.txt
@@ -99,3 +95,7 @@ Todas as respostas seguem um padrão JSON:
 4. Acessar a documentação automática da API (Swagger):
    - `http://localhost:8000/docs`
 
+(Se a pasta estiver em app/ use:)
+   ```bash
+   cd ..
+   ```
